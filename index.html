@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vishnu Aishwaryan Subra Mani | Robotics & Mechanical Engineer</title>
-  <meta name="description" content="Portfolio of Vishnu Aishwaryan Subra Mani - Robotics Engineer specializing in humanoids, advanced exoskeletons, custom actuators, and high-performance control systems." />
+  <title>Vishnu Aishwaryan Subra Mani | Advanced Robotics & Biomechanical Systems</title>
+  <meta name="description" content="Portfolio of Vishnu Aishwaryan Subra Mani - Mechanical and Robotics Engineer specializing in humanoids, lower-limb medical exoskeletons, novel actuators, and dynamic control." />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <!-- Navigation -->
   <header class="navbar">
     <div class="nav-container">
-      <a href="#" class="logo"><span class="accent-dot"></span>VA.Robotics</a>
+      <a href="#" class="logo">
+        <span class="pulse-indicator"></span>
+        <span>VISHNU.A.SUBRAMANI</span>
+      </a>
       <nav>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Core Skills</a></li>
-          <li><a href="#projects">Engineering Systems</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#skills">Competencies</a></li>
+          <li><a href="#projects">Systems Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -30,14 +34,16 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container hero-content">
-      <div class="hero-badge">IHMC Robotics Alum • MS Robotics Dynamics</div>
-      <h1>Architecting High-Performance Biomechanical Systems</h1>
-      <p class="subtext">
-        Specializing in advanced humanoids (NADIA), lower-limb rehabilitation exoskeletons (QUIX, EVA, LARRE), custom hydraulic/electric actuators, and precision feedback control.
+      <div class="hero-status">
+        <span class="status-tag">IHMC Robotics Research • MS Robotics Engineering</span>
+      </div>
+      <h1>Engineering High-Performance Biomechanical Systems &amp; Walking Robots</h1>
+      <p class="hero-subtext">
+        Bridging natural biological movement with high-torque mechanical hardware. Specialized in dynamic humanoid robotics, lower-limb assistive/rehabilitation exoskeletons, high-power-density actuators, and closed-loop control.
       </p>
       <div class="hero-actions">
-        <a href="#projects" class="btn primary-btn">Explore Systems</a>
-        <a href="#skills" class="btn secondary-btn">View Competencies</a>
+        <a href="#projects" class="btn btn-primary">Browse Systems &amp; Case Studies</a>
+        <a href="#publications" class="btn btn-secondary">Publications &amp; Research</a>
       </div>
     </div>
   </section>
@@ -45,266 +51,749 @@
   <!-- About Section -->
   <section id="about" class="section">
     <div class="container">
-      <h2 class="section-title">Background &amp; Philosophy</h2>
       <div class="about-grid">
-        <div class="about-quote">
+        <div class="about-quote-box">
+          <div class="quote-symbol">“</div>
           <blockquote>
-            “Never let go of the child in you who is curious, motivated, and determined to succeed no matter how many times you fail.”
+            Never let go of the child in you who is curious, motivated and determined to succeed no matter how many times you fail.
           </blockquote>
-          <p class="quote-author">— Vishnu Aishwaryan Subra Mani</p>
+          <p class="quote-sub">— Personal Engineering Philosophy</p>
         </div>
-        <div class="about-text">
+        <div class="about-text-content">
+          <h2 class="section-title">Design Philosophy &amp; Background</h2>
           <p>
-            Growing up watching my mother prepare anatomical illustrations for medical school lectures sparked my lifelong fascination with how biological systems seamlessly coordinate human movement. Later, discovering the mechanics of a back-pedal bicycle brake revealed that mechanical design can dictate physical behavior entirely.
+            My fascination with biological locomotion originated as a child watching my mother prepare lecture notes and medical illustrations for her clinical teaching at a medical school. Observing how intricate anatomical systems coordinate to generate fluid human motion shaped my perspective on physical mechanics.
           </p>
           <p>
-            Driven to unite these domains, I moved abroad to build my identity as a robotics engineer. Today, my work focuses on bridging biological elegance with robotic hardware—designing walking systems, augmentative exoskeletons, and agile humanoids that replicate natural biomechanical efficiency.
+            That curiosity converged with mechanical design when I took apart my first bicycle, discovering the back-pedal coaster brake mechanism. It was my first realization that a mechanical system's behavior is fundamentally dictated by its designer's architecture.
+          </p>
+          <p>
+            To unite these two domains, I traveled abroad to pursue robotics engineering, working directly on cutting-edge walking systems: <strong>rehabilitation exoskeletons for spinal cord injury mobility</strong>, <strong>augmentative exosuits for elderly assistance</strong>, and <strong>high-mobility humanoids</strong> at IHMC.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Core Skills & Competencies Highlight Section -->
-  <section id="skills" class="section bg-alt">
+  <!-- Peer-Reviewed Publications -->
+  <section id="publications" class="section bg-elevated">
     <div class="container">
-      <h2 class="section-title">Technical Expertise &amp; Skills</h2>
-      <p class="section-subtitle">Validated through rigorous research, hardware fabrication, and field deployment at IHMC</p>
+      <h2 class="section-title">Peer-Reviewed Publications</h2>
+      <p class="section-subtitle">Published contributions in robotic mobility and compliant mechanisms</p>
+      
+      <div class="publications-list">
+        <div class="pub-card">
+          <span class="pub-tag">Journal Paper • JNER 2021</span>
+          <h3>Team IHMC at the 2020 Cybathlon: a user-centered approach towards personal mobility devices</h3>
+          <p class="pub-authors">Peterson, Daniel, Subra Mani, Arnold, Craig, Gines, Gonzalez, Howarth, Bellman, Neuhaus &amp; Griffin</p>
+          <p class="pub-journal"><em>Journal of NeuroEngineering and Rehabilitation (JNER)</em></p>
+        </div>
+        
+        <div class="pub-card">
+          <span class="pub-tag">Conference Paper • ASME IDETC-CIE 2020</span>
+          <h3>Design, Development and Characterization of a Wrap Spring Clutch/Brake Mechanism as a Knee Joint for an Assistive Exoskeleton</h3>
+          <p class="pub-authors">Vishnu Aishwaryan Subra Mani, Nathaniel Goldfarb, Gregory S. Fischer</p>
+          <p class="pub-journal"><em>ASME International Design Engineering Technical Conferences &amp; CIE — CAPPD Technical Committee</em></p>
+        </div>
+
+        <div class="pub-card">
+          <span class="pub-tag">Master's Thesis • WPI 2020</span>
+          <h3>Design, Development and Characterization of a Wrap Spring Clutch/Brake Mechanism as a Knee Joint for an Assistive Exoskeleton</h3>
+          <p class="pub-authors">Vishnu Aishwaryan Subra Mani (Advisor: Prof. Gregory S. Fischer)</p>
+          <p class="pub-journal"><em>Worcester Polytechnic Institute (WPI) Robotics Engineering Department</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Competencies -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical Competencies &amp; Lab Skills</h2>
+      <p class="section-subtitle">Hands-on expertise across hardware design, machining, simulation, and embedded control</p>
       
       <div class="skills-grid">
-        <div class="skill-category">
-          <h3>Mechanical &amp; Hardware Design</h3>
+        <div class="skill-box">
+          <div class="skill-icon">&#9881;</div>
+          <h3>Mechanical &amp; Hardware Engineering</h3>
           <ul>
             <li>Compliant System Design for Manufacturing</li>
-            <li>Hydraulic Actuator Assembly, Inspection &amp; Cleaning</li>
-            <li>Linkage Optimization &amp; Kinematics Form-Fitting</li>
-            <li>GD&amp;T Drawing, Tolerances &amp; Wire Molding/Strain Relieving</li>
-            <li>Carbon Fiber Foot Instrumented Strain Gauges</li>
+            <li>Linkage Kinematics Optimization &amp; Swept Volume Minimization</li>
+            <li>Hydraulic Actuator Assembly, Dynamic Sealing &amp; Ultrasonic Cleaning</li>
+            <li>Carbon Fiber Wet Layup &amp; Autoclave Part Molding (3-6-3 patterns)</li>
+            <li>GD&amp;T Drafting, Engineering Tolerancing &amp; Wire Molding</li>
           </ul>
         </div>
-        <div class="skill-category">
-          <h3>Testing &amp; Characterization</h3>
+
+        <div class="skill-box">
+          <div class="skill-icon">&#128302;</div>
+          <h3>Testing &amp; Hardware Validation</h3>
           <ul>
-            <li>Actuator Load Testing, Stiffness &amp; Bearing Specs</li>
-            <li>Fatigue Cycle Testing &amp; Compliance FEA Models</li>
-            <li>High Pressure Hydrostatic Testing (Up to 3000 PSI)</li>
-            <li>Gait Trials &amp; Biomechanical Data Analysis</li>
+            <li>High-Pressure Hydrostatic Proofing (100 to 3000 PSI)</li>
+            <li>Ground Reaction Force &amp; Center of Pressure (COP) Estimation</li>
+            <li>6-Axis Force/Torque &amp; Instrumented Strain Gauge Integration</li>
+            <li>Dynamic Actuator Load Bench Testing &amp; Bearing Friction Characterization</li>
+            <li>Vicon Motion Capture &amp; Multi-Segment IMU Sensor Fusion</li>
           </ul>
         </div>
-        <div class="skill-category">
-          <h3>Software &amp; Control Engineering</h3>
+
+        <div class="skill-box">
+          <div class="skill-icon">&#128187;</div>
+          <h3>CAD, CAE &amp; Computation</h3>
           <ul>
-            <li>SolidWorks (FEA, Fatigue, Thermal/Structural Analysis)</li>
-            <li>Onshape (Robot Kinematic Skeletons, Parameterized Design)</li>
-            <li>Python &amp; MATLAB (Kinematics &amp; Actuator Characterization)</li>
-            <li>PID Control, State Estimation &amp; Self-Balancing Dynamics</li>
+            <li><strong>CAD/CAM:</strong> SolidWorks, Onshape (Kinematic Skeletons), ESPRIT CAM</li>
+            <li><strong>CAE/FEA:</strong> Abaqus (Impact Dynamics), SolidWorks FEA (Fatigue/Stress)</li>
+            <li><strong>CFD:</strong> SolidWorks Flow Simulation (Compressible Nozzles, Aerothermal)</li>
+            <li><strong>Coding &amp; Math:</strong> Python (Kinematic Models), MATLAB/Simulink, C/C++</li>
+            <li><strong>Control:</strong> State Estimation, Real-Time PID Tuning, Motor Drive Debugging</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Comprehensive Projects & Systems Portfolio Grid -->
-  <section id="projects" class="section">
+  <!-- Interactive Projects Grid -->
+  <section id="projects" class="section bg-elevated">
     <div class="container">
       <h2 class="section-title">Engineering Systems &amp; Projects</h2>
-      <p class="section-subtitle">Detailed deep-dives into humanoid hardware, exoskeletons, actuators, and control architectures</p>
+      <p class="section-subtitle">Click on any project card to inspect complete design equations, testing procedures, and technical specifications</p>
 
-      <div class="project-grid">
+      <div class="projects-grid">
 
-        <!-- 1. IHMC Nadia -->
-        <article class="project-card">
-          <div class="card-header-tag">
+        <!-- 1. IHMC Humanoid NADIA -->
+        <div class="project-card" onclick="openModal('modal-nadia')">
+          <div class="card-top">
             <span class="badge humanoid">Humanoid Robotics</span>
-            <span class="location">IHMC</span>
+            <span class="project-org">IHMC</span>
           </div>
           <h3>IHMC Humanoid NADIA</h3>
-          <p>Next-generation bipedal humanoid engineered for urban disaster environments, featuring high range of motion, instrumented carbon-fiber feet for Ground Reaction Force estimation, and 3-DOF compact torso mechanisms.</p>
-          <div class="tech-stack"><span>Hydraulics</span><span>Carbon Fiber</span><span>FEA Optimization</span></div>
-          <div class="video-container">
-            <iframe src="https://www.youtube-nocookie.com/embed/_mQJw8VhZ7w" title="IHMC Nadia Humanoid" allowfullscreen></iframe>
+          <p>Next-generation agile humanoid engineered for semi-autonomous navigation in degraded urban structures, stairs, and debris fields.</p>
+          <div class="tag-row">
+            <span>Hybrid Hydraulic/Electric</span>
+            <span>Carbon Fiber</span>
+            <span>3-DOF Torso</span>
           </div>
-          <div class="card-footer">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/ihmc-nadia" target="_blank" rel="noopener" class="text-link">Read Original Case Study &rarr;</a>
-          </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 2. IHMC EVA -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge exo">Exoskeleton</span>
-            <span class="location">IHMC</span>
+        <!-- 2. IHMC QUIX Exoskeleton -->
+        <div class="project-card" onclick="openModal('modal-quix')">
+          <div class="card-top">
+            <span class="badge exo">Medical Exoskeleton</span>
+            <span class="project-org">IHMC / Cybathlon</span>
+          </div>
+          <h3>IHMC Team QUIX (Mobility Challenge)</h3>
+          <p>8-actuator lower-limb exoskeleton enabling individuals with spinal cord injury to walk, climb stairs, and navigate obstacles.</p>
+          <div class="tag-row">
+            <span>16-Sensor COP Sole</span>
+            <span>Active Cooling</span>
+            <span>Modular Actuation</span>
+          </div>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
+
+        <!-- 3. MS Thesis: Wrap Spring Knee Joint (LARRE) -->
+        <div class="project-card" onclick="openModal('modal-larre')">
+          <div class="card-top">
+            <span class="badge thesis">MS Thesis • WPI</span>
+            <span class="project-org">ASME CIE 2020</span>
+          </div>
+          <h3>Wrap Spring Clutch Knee Joint</h3>
+          <p>Quasi-passive assistive exoskeleton knee mechanism utilizing a high-torque wrap-spring clutch/brake architecture with minimal electrical power.</p>
+          <div class="tag-row">
+            <span>Wrap Spring Arbor</span>
+            <span>Precision CNC</span>
+            <span>Bench Dynamometer</span>
+          </div>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
+
+        <!-- 4. IHMC EVA Exoskeleton -->
+        <div class="project-card" onclick="openModal('modal-eva')">
+          <div class="card-top">
+            <span class="badge exo">Rehabilitation</span>
+            <span class="project-org">IHMC</span>
           </div>
           <h3>IHMC Exoskeleton EVA</h3>
-          <p>Advanced lower-limb exoskeleton platform developed for human pilot assistance, kinematic mapping, and real-time torque delivery during standing and walking trials.</p>
-          <div class="tech-stack"><span>Gait Assistance</span><span>Torque Control</span><span>Pilot Testing</span></div>
-          <div class="video-container">
-            <iframe src="https://www.youtube-nocookie.com/embed/6blTqkGVWWU" title="IHMC EVA Exoskeleton" allowfullscreen></iframe>
+          <p>Lower-limb powered exoskeleton platform engineered for pilot mobility trials, gait trajectory mapping, and human-in-the-loop control.</p>
+          <div class="tag-row">
+            <span>Human-Machine Interface</span>
+            <span>Gait Support</span>
+            <span>Torque Delivery</span>
           </div>
-          <div class="card-footer">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/ihmc-eva" target="_blank" rel="noopener" class="text-link">Read Original Case Study &rarr;</a>
-          </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 3. IHMC Internship -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge research">Internship Research</span>
-            <span class="location">IHMC</span>
+        <!-- 5. Augmented Jump Jet Wearable -->
+        <div class="project-card" onclick="openModal('modal-jump')">
+          <div class="card-top">
+            <span class="badge prop">Propulsion &amp; Bio</span>
+            <span class="project-org">Self-Funded R&amp;D</span>
           </div>
-          <h3>IHMC Exoskeleton Research &amp; Assembly</h3>
-          <p>Intensive R&amp;D internship focusing on mechanical integration, sensor wiring harnesses, structural stress testing, and subsystem validation for state-of-the-art wearable robotics.</p>
-          <div class="tech-stack"><span>R&amp;D</span><span>Subsystem Integration</span><span>Hardware Debugging</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/ihmc-internship" target="_blank" rel="noopener" class="text-link">Read Internship Overview &rarr;</a>
+          <h3>Cold Gas Propulsion Human Jump Augmenter</h3>
+          <p>Biomechanical jump augmentation utilizing an Abaqus spring-mass drop simulation and a convergent-divergent supersonic gas nozzle.</p>
+          <div class="tag-row">
+            <span>Abaqus Drop FEA</span>
+            <span>De Laval Nozzle</span>
+            <span>CFD Simulation</span>
           </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 4. Knee Joint for Exoskeleton -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge mechanical">Mechanical Design</span>
-            <span class="location">Exoskeleton Hardware</span>
+        <!-- 6. Variable Damping Landing Gear -->
+        <div class="project-card" onclick="openModal('modal-gear')">
+          <div class="card-top">
+            <span class="badge aero">Aerospace Design</span>
+            <span class="project-org">BS Capstone</span>
           </div>
-          <h3>Knee Joint for Exoskeleton</h3>
-          <p>Precision-engineered knee joint architecture designed to replicate human anatomical range of motion while withstanding high impact loading and cyclical fatigue conditions.</p>
-          <div class="tech-stack"><span>Bearing Design</span><span>Fatigue Testing</span><span>Kinematics</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/knee-joint-for-exoskeleton" target="_blank" rel="noopener" class="text-link">View Joint Mechanics &rarr;</a>
+          <h3>Variable Damping Nose Landing Gear</h3>
+          <p>Oleo-pneumatic shock strut featuring a tapered metering pin to achieve critical damping and reduced settling times for UAV landings.</p>
+          <div class="tag-row">
+            <span>Variable Orifice</span>
+            <span>MATLAB Dynamic Model</span>
+            <span>Abaqus Validation</span>
           </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 5. Wearable Device / QUIX -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge mobility">Mobility Challenge</span>
-            <span class="location">Team QUIX</span>
+        <!-- 7. Dual Stator Dual Rotor Actuator -->
+        <div class="project-card" onclick="openModal('modal-motor')">
+          <div class="card-top">
+            <span class="badge motor">Motor Design</span>
+            <span class="project-org">Concept Testing</span>
           </div>
-          <h3>Wearable Device (Toyota Mobility Unlimited)</h3>
-          <p>Modular robotic exoskeleton built for the Toyota Mobility Unlimited Challenge, enabling individuals with spinal cord injuries to stand up, walk, and navigate complex real-world obstacles.</p>
-          <div class="tech-stack"><span>Paraplegia Support</span><span>Obstacle Navigation</span><span>Modular Actuation</span></div>
-          <div class="video-container">
-            <iframe src="https://www.youtube-nocookie.com/embed/vB395g3WYrs" title="IHMC Team Quix Mobility Challenge" allowfullscreen></iframe>
+          <h3>Dual Stator Dual Rotor Motor</h3>
+          <p>Novel motor topology designed to deliver ultra-high torque density for quasi-direct drive robotic actuators without heavy reduction gearboxes.</p>
+          <div class="tag-row">
+            <span>Quasi-Direct Drive</span>
+            <span>Inrunner / Outrunner</span>
+            <span>Open-Loop Torque</span>
           </div>
-          <div class="card-footer">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/copy-of-wearable-device" target="_blank" rel="noopener" class="text-link">Explore Wearable Specs &rarr;</a>
-          </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 6. Gait Trials -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge biomech">Biomechanics</span>
-            <span class="location">Experimental</span>
+        <!-- 8. Voice Coil Two-Pole Actuator -->
+        <div class="project-card" onclick="openModal('modal-vca')">
+          <div class="card-top">
+            <span class="badge actuator">Actuation</span>
+            <span class="project-org">Concept Testing</span>
           </div>
-          <h3>Human Gait Trials &amp; Analysis</h3>
-          <p>Experimental testing evaluating ground reaction forces, joint kinematics, metabolic efficiency, and real-time pilot feedback during robotic exoskeleton operation.</p>
-          <div class="tech-stack"><span>Force Plates</span><span>Trajectory Tracking</span><span>Data Analysis</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/copy-of-gait-trials" target="_blank" rel="noopener" class="text-link">View Gait Trial Data &rarr;</a>
+          <h3>Dual-Pole Solenoid &amp; Voice Coil Actuator</h3>
+          <p>Experimental direct linear drive evaluating dual-pole windings for minimal thermal dissipation and position-controlled spring-like compliance.</p>
+          <div class="tag-row">
+            <span>L298N Drive</span>
+            <span>Thermal Efficiency</span>
+            <span>Virtual Spring</span>
           </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 7. Ankle / Hip Exosuit -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge exosuit">Soft Robotics</span>
-            <span class="location">Wearable Tech</span>
+        <!-- 9. Ankle/Hip Assistive Exosuit -->
+        <div class="project-card" onclick="openModal('modal-exosuit')">
+          <div class="card-top">
+            <span class="badge soft">Wearable Systems</span>
+            <span class="project-org">Independent R&amp;D</span>
           </div>
-          <h3>Ankle &amp; Hip Exosuit Concept</h3>
-          <p>Lightweight soft-rigid hybrid wearable device designed to augment human ankle plantarflexion and hip flexion, minimizing metabolic energy expenditure during walking.</p>
-          <div class="tech-stack"><span>Soft Actuation</span><span>Cable Transmission</span><span>Biomechanics</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/ankle-hip-exosuit" target="_blank" rel="noopener" class="text-link">Explore Exosuit Concept &rarr;</a>
+          <h3>Ankle &amp; Hip Compliant Exosuit</h3>
+          <p>Unilateral assistive exosuit delivering ~70N of assistive force during midstance using heel contact switches and high-stiffness brushless motors.</p>
+          <div class="tag-row">
+            <span>MJBots Motor</span>
+            <span>Midstance Assist</span>
+            <span>Variable Stiffness</span>
           </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 8. PID Control -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge control">Control Systems</span>
-            <span class="location">Embedded Systems</span>
+        <!-- 10. Motion Capture Human Gait Trials -->
+        <div class="project-card" onclick="openModal('modal-gait')">
+          <div class="card-top">
+            <span class="badge biomech">Gait Dynamics</span>
+            <span class="project-org">Graduate Lab</span>
           </div>
-          <h3>PID Control Systems Architecture</h3>
-          <p>Implementation of custom proportional-integral-derivative tuning loops, sensor signal filtering, and closed-loop motor stability for responsive robotic control.</p>
-          <div class="tech-stack"><span>Embedded C/C++</span><span>Feedback Loops</span><span>State Estimation</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/pid-control" target="_blank" rel="noopener" class="text-link">View Control Architecture &rarr;</a>
+          <h3>Dynamic Gait Simulation &amp; Biomechanical Trials</h3>
+          <p>Experimental motion tracking and biomechanical dynamic walking simulation using 7 distributed IMUs and 20 Vicon optical reflective markers.</p>
+          <div class="tag-row">
+            <span>Vicon Nexus</span>
+            <span>IMU Brackets</span>
+            <span>Python Dynamics</span>
           </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 9. Self Balancing Robot -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge robot">Autonomous Systems</span>
-            <span class="location">Robotics Lab</span>
+        <!-- 11. Self-Balancing Robot & PID Tuning -->
+        <div class="project-card" onclick="openModal('modal-balance')">
+          <div class="card-top">
+            <span class="badge control">Controls</span>
+            <span class="project-org">Control Labs</span>
           </div>
-          <h3>Self-Balancing Inverted Pendulum Robot</h3>
-          <p>Two-wheeled mobile platform utilizing IMU sensor fusion and real-time PID stabilization to maintain balance under dynamic external disturbances.</p>
-          <div class="tech-stack"><span>IMU Fusion</span><span>Inverted Pendulum</span><span>Real-time Tuning</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/self-balancing-robot" target="_blank" rel="noopener" class="text-link">View Balancing System &rarr;</a>
+          <h3>Two-Wheeled Inverted Pendulum Robot</h3>
+          <p>Hardware platform for state estimation, IMU complementary filtering, and empirical/analytical PID parameter tuning under external disturbances.</p>
+          <div class="tag-row">
+            <span>IMU Sensor Fusion</span>
+            <span>PID Stabilization</span>
+            <span>State Feedback</span>
           </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
-        <!-- 10. Two-Pole Solenoid -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge actuator">Electromechanical</span>
-            <span class="location">Concept Testing</span>
+        <!-- 12. PID Velocity & Force Control -->
+        <div class="project-card" onclick="openModal('modal-pid')">
+          <div class="card-top">
+            <span class="badge control">Controls</span>
+            <span class="project-org">Control Labs</span>
           </div>
-          <h3>Two-Pole Solenoid Actuator</h3>
-          <p>Custom electromagnetic actuator prototype designed for high-frequency switching, rapid stroke response, and optimal magnetic flux containment.</p>
-          <div class="tech-stack"><span>Electromagnetics</span><span>Magnetic Flux</span><span>Rapid Prototyping</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/two-pole-solenoid" target="_blank" rel="noopener" class="text-link">View Solenoid Design &rarr;</a>
+          <h3>PID Closed-Loop Velocity &amp; Wheelie Control</h3>
+          <p>Dynamic motor feedback controller configured for precision velocity tracking and intentional equilibrium wheelie states under step responses.</p>
+          <div class="tag-row">
+            <span>Velocity Loops</span>
+            <span>Transient Response</span>
+            <span>Encoder Feedback</span>
           </div>
-        </article>
-
-        <!-- 11. Dual Stator Rotor Motor -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge motor">Advanced Drives</span>
-            <span class="location">Concept Testing</span>
-          </div>
-          <h3>Dual Stator Rotor Motor</h3>
-          <p>High-torque-density electric motor architecture designed to maximize thermal dissipation and electromagnetic coupling for compact robotic joint actuation.</p>
-          <div class="tech-stack"><span>Torque Density</span><span>Thermal Dissipation</span><span>BLDC Design</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/dual-stator-rotor-motor" target="_blank" rel="noopener" class="text-link">View Motor Specs &rarr;</a>
-          </div>
-        </article>
-
-        <!-- 12. Knee Joint (Alternative/Secondary) -->
-        <article class="project-card">
-          <div class="card-header-tag">
-            <span class="badge mechanical">Hardware Prototyping</span>
-            <span class="location">Exoskeleton Joint</span>
-          </div>
-          <h3>Advanced Knee Joint Transmission</h3>
-          <p>Secondary iteration of exoskeleton knee transmission focusing on backlash reduction, lightweight housing materials, and optimized gear ratios.</p>
-          <div class="tech-stack"><span>Backlash Reduction</span><span>Gearboxes</span><span>Machining</span></div>
-          <div class="card-footer card-footer-solo">
-            <a href="https://vishnuaishwaryans.wixsite.com/mysite/copy-of-knee-joint" target="_blank" rel="noopener" class="text-link">View Joint Iteration &rarr;</a>
-          </div>
-        </article>
+          <button class="inspect-btn">Inspect Technical Details &rarr;</button>
+        </div>
 
       </div>
     </div>
   </section>
 
-  <!-- Footer / Contact -->
+  <!-- CONTACT & FOOTER -->
   <footer id="contact" class="footer">
-    <div class="container footer-content">
-      <h2>Let's Build the Future of Robotics</h2>
-      <p>Open to professional opportunities in humanoid design, exoskeleton R&amp;D, and electromechanical systems.</p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="btn primary-btn">LinkedIn Profile</a>
-        <a href="mailto:vishnuaishwaryans@gmail.com" class="btn secondary-btn">vishnuaishwaryans@gmail.com</a>
+    <div class="container footer-inner">
+      <h2>Let's Discuss Advanced Robotic Hardware</h2>
+      <p class="footer-desc">
+        Actively open to opportunities in humanoid mechanical design, exoskeleton engineering, actuation systems, and dynamic hardware testing.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:vishnuaishwaryans@gmail.com" class="btn btn-primary">vishnuaishwaryans@gmail.com</a>
+        <a href="tel:6177554974" class="btn btn-secondary">(617) 755-4974</a>
+        <a href="https://www.linkedin.com/in/vishnu-aishwaryan" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn Profile</a>
       </div>
-      <p class="copyright">&copy; 2026 Vishnu Aishwaryan Subra Mani. Engineered for GitHub Pages.</p>
+      <p class="copyright">
+        &copy; 2026 Vishnu Aishwaryan Subra Mani. Clean static site hosted directly on GitHub Pages.
+      </p>
     </div>
   </footer>
+
+  <!-- ==================== INTERACTIVE DETAIL MODALS ==================== -->
+
+  <!-- MODAL 1: NADIA -->
+  <div id="modal-nadia" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-nadia')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-nadia')">&times;</button>
+      <div class="modal-header">
+        <span class="badge humanoid">Humanoid Robotics</span>
+        <h2>IHMC Humanoid Robot: NADIA</h2>
+        <p class="modal-lead">High-Mobility Hybrid Humanoid for Urban Disaster &amp; Confined Operations</p>
+      </div>
+      <div class="modal-body">
+        <div class="video-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/_mQJw8VhZ7w" title="Nadia Demonstration" allowfullscreen></iframe>
+        </div>
+        <div class="detail-section">
+          <h3>System Overview</h3>
+          <p>
+            IHMC developed Nadia as a next-generation humanoid robot designed for autonomous and semi-autonomous behaviors in urban environments and complex indoor structures where stairs, ladders, and uneven debris are present. Nadia requires human-equivalent range of motion (ROM) and torque characteristics to perform high-load behaviors such as walking, squatting, dynamic ladder ascension, and two-handed manipulation.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>Distal Mass Reduction &amp; Instrumented Carbon Fiber Feet</h3>
+          <p>
+            Locomotive agility in bipeds is heavily governed by distal mass (approximated by the Linear Inverted Pendulum model). To maximize stride frequency and minimize leg inertia, I led the effort to offload weight from the lower extremities.
+          </p>
+          <ul>
+            <li><strong>Center of Pressure (COP) Estimation:</strong> Replaced heavy, expensive commercial 6-axis Force/Torque sensors at the feet with custom carbon-fiber foot plates instrumented with calibrated strain gauges.</li>
+            <li><strong>Atlas Benchmark Characterization:</strong> Characterized the structural stiffness of the DARPA Robotics Challenge DRC Atlas robot feet to balance structural resilience with elastic shock absorption.</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>3-DOF Compact Torso Joint Architecture</h3>
+          <p>
+            Most humanoid torsos possess minimal degrees of freedom, preventing them from leaning down to lift objects or recovering after falls. I engineered a lightweight 3-DOF torso providing Pitch, Roll, and Yaw while minimizing swept volume to house the onboard Hydraulic Power Unit (HPU), computer stack, and batteries.
+          </p>
+          <ul>
+            <li><strong>Zero-Backlash Push-Push Actuation:</strong> Designed a push-push dual hydraulic cylinder kinematic setup across the pitch and roll axes. Constant dual-side pressure completely eliminates joint backlash across the entire ROM and provides symmetrical torque output.</li>
+            <li><strong>Kinematic Optimization:</strong> Formulated an optimization routine to minimize swept cylinder volume, resulting in precise mounting pivots and crank arm dimensions transferred directly into CAD.</li>
+            <li><strong>FEA &amp; Moment Load Testing:</strong> Evaluated cycloidal and planetary yaw drives under severe moment loading conditions (up to 300 Nm) to ensure structural factor-of-safety margins.</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>Custom Hydraulic Actuator Assembly &amp; 3000 PSI Hydrostatic Testing</h3>
+          <ul>
+            <li><strong>Contamination Control:</strong> Cleaned custom cylinder parts, manifolds, and rod seal pucks using ultrasonic cleaning baths and continuous low-pressure flushing to protect delicate servo-valve micro-orifices.</li>
+            <li><strong>Dynamic Sealing:</strong> Integrated high-durability static and dynamic hydraulic seals on plunger rods.</li>
+            <li><strong>Pressure Step Verification:</strong> Conducted stepped hydrostatic pressure testing from 100 PSI up to 3,000 PSI to verify structural integrity and zero external leakage, followed by cyclic stroke friction mapping.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: QUIX -->
+  <div id="modal-quix" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-quix')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-quix')">&times;</button>
+      <div class="modal-header">
+        <span class="badge exo">Medical Exoskeleton</span>
+        <h2>IHMC Team QUIX: Powered Mobility Exoskeleton</h2>
+        <p class="modal-lead">Cybathlon 2020 &amp; Toyota Mobility Unlimited Challenge Finalist Platform</p>
+      </div>
+      <div class="modal-body">
+        <div class="video-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/vB395g3WYrs" title="IHMC Team Quix Mobility Challenge" allowfullscreen></iframe>
+        </div>
+        <div class="detail-section">
+          <h3>Overview &amp; Achievement</h3>
+          <p>
+            IHMC Quix is a powered 8-actuator lower-limb medical exoskeleton engineered for individuals with complete spinal cord injuries (SCI). The device competed in the global 2020 Cybathlon and Toyota Mobility Unlimited Challenge, placing in the top tiers worldwide.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>16-Sensor Center of Pressure (COP) Sole</h3>
+          <p>
+            To supply the control architecture with real-time foot contact states, I developed custom sensorized footplates:
+          </p>
+          <ul>
+            <li><strong>Urethane Rubber Encapsulation:</strong> Developed precision liquid urethane molding processes to securely pot pressure-sensitive elements into rugged soles.</li>
+            <li><strong>16-Sensor Sensor Array:</strong> Designed and calibrated a 16-sensor distributed matrix across heel, arch, metatarsal, and toe regions.</li>
+            <li><strong>Real-Time Visualization:</strong> Engineered communication and data streaming protocols to visualize 2D COP trajectory during human pilot walking.</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>Active Cooling Thermal Backpack &amp; Quick-Swap Battery</h3>
+          <ul>
+            <li><strong>SolidWorks CFD Airflow:</strong> Conducted internal thermal fluid flow simulations to optimize inlet and outlet ventilation ports on the electronic backpack, integrating active forced-air cooling fans with conductive aluminum baseplate heat dissipation.</li>
+            <li><strong>Leaf-Spring Battery Mount:</strong> Designed a four-sided leaf-spring locking mechanism enabling quick-swap battery replacement during competition maneuvers, functioning seamlessly like an industrial drill battery interface.</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>Carbon Fiber Thigh Cuffs (3-6-3 Layup)</h3>
+          <p>
+            Exoskeleton cuffs must safely distribute high interaction forces across paralyzed limbs without creating localized pressure ulcers:
+          </p>
+          <ul>
+            <li>Engineered three-part modular tooling molds to manufacture oversized composite thigh cuffs.</li>
+            <li>Formulated a customized 3-6-3 mono-6-mono pre-preg carbon fiber layup schedule to achieve optimal directional stiffness and compliance.</li>
+            <li>Finished edges with tailored rubber edging and softgood padding to prevent tissue shearing.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: LARRE -->
+  <div id="modal-larre" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-larre')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-larre')">&times;</button>
+      <div class="modal-header">
+        <span class="badge thesis">MS Thesis Research • WPI</span>
+        <h2>Quasi-Passive Wrap Spring Clutch Knee Joint (LARRE)</h2>
+        <p class="modal-lead">Published in ASME IDETC-CIE 2020 &amp; Master's Thesis at Worcester Polytechnic Institute</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Research Objective</h3>
+          <p>
+            Standard powered exoskeleton knee joints demand heavy gearboxes and high continuous electrical power to support body weight during stance. My thesis designed, manufactured, and experimentally validated a quasi-passive knee joint based on a wrap-spring clutch/brake architecture capable of mechanically locking under stance loads with near-zero electrical power consumption.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>Engineering &amp; Manufacturing Execution</h3>
+          <ul>
+            <li><strong>Mechanism Trade Study:</strong> Benchmarked magneto-rheological fluids, pawl-ratchet drives, friction plates, and wrap-spring clutches across weight, cost, parasitic power, and holding torque.</li>
+            <li><strong>High-Tolerance Arbor Machining:</strong> Programmed CAM toolpaths in ESPRIT and CNC-machined custom steel arbor drums with micron-level cylindrical tolerances and surface finishes to ensure repeatable friction engagement.</li>
+            <li><strong>Dynamic Dynamometer Characterization:</strong> Tested full-scale assemblies on a custom test bench to map engagement latency, release torque, holding capacity under human-equivalent bodyweight moments, and fatigue life.</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>Publications</h3>
+          <p>
+            • <em>Subra Mani, V.A., Goldfarb, N., Fischer, G.S.</em>, "Design, Development and Characterization of a Wrap Spring Clutch/Brake mechanism as a knee joint for an Assistive Exoskeleton", <strong>ASME IDETC-CIE 2020</strong>.<br/>
+            • <em>Subra Mani, V.A.</em>, Master's Thesis, Worcester Polytechnic Institute.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 4: EVA -->
+  <div id="modal-eva" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-eva')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-eva')">&times;</button>
+      <div class="modal-header">
+        <span class="badge exo">Rehabilitation Robotics</span>
+        <h2>IHMC Exoskeleton EVA</h2>
+        <p class="modal-lead">Lower-Limb Powered Robotic System for Clinical Mobility Trials</p>
+      </div>
+      <div class="modal-body">
+        <div class="video-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/6blTqkGVWWU" title="IHMC EVA Pilot Testing" allowfullscreen></iframe>
+        </div>
+        <div class="detail-section">
+          <h3>System Engineering</h3>
+          <p>
+            EVA was developed at IHMC as an advanced powered exoskeleton platform specifically targeting gait rehabilitation for individuals with neuromuscular impairment. The hardware features high-power joint actuators, modular link adjustments, and embedded strain sensing.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>Key Responsibilities &amp; Outcomes</h3>
+          <ul>
+            <li><strong>Joint Alignment &amp; Structural Kinematics:</strong> Maintained structural integrity of hip and knee joints during cyclic pilot load profiles.</li>
+            <li><strong>Sensor Wiring &amp; Strain Relief:</strong> Executed custom cable molding to protect embedded encoder and load cell signal lines against continuous dynamic flexion.</li>
+            <li><strong>Pilot Interaction Tuning:</strong> Collaborated on assistive torque trajectories to ensure natural physiological gait transitions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 5: JUMP AUGMENTER -->
+  <div id="modal-jump" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-jump')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-jump')">&times;</button>
+      <div class="modal-header">
+        <span class="badge prop">Propulsion &amp; Biomechanics</span>
+        <h2>Cold Gas Propulsion Jump Augmentation System</h2>
+        <p class="modal-lead">Biomechanical Modeling, Supersonic Nozzle CFD, and Hardware Fabrication</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Concept &amp; Abaqus Dynamic Simulation</h3>
+          <p>
+            This self-funded R&amp;D project investigated whether human vertical jump height could be dramatically augmented using an impulsive wearable cold-gas thruster:
+          </p>
+          <ul>
+            <li><strong>Abaqus Spring-Mass Dynamic Model:</strong> Built an analytical spring-mass human drop-jump simulation in Abaqus. Instead of applying conventional constant force, the model evaluated an impulsive force pulse injected strictly at the mechanical rebound phase of the jump.</li>
+            <li><strong>Force Timing:</strong> Proved analytically that delivering a targeted impulse during positive center-of-mass acceleration yields maximum vertical velocity with minimum propulsive mass.</li>
+          </ul>
+        </div>
+        <div class="detail-section">
+          <h3>De Laval Convergent-Divergent Nozzle Design</h3>
+          <ul>
+            <li><strong>Gas Dynamics:</strong> Derived analytical equations for a supersonic De Laval nozzle to maximize exit velocity and thrust-to-weight ratio.</li>
+            <li><strong>SolidWorks Compressible Flow CFD:</strong> Ran CFD flow simulations to verify Mach number distributions, expansion shockwaves, and mass flow rates against analytical equations.</li>
+            <li><strong>CNC Lathe Manufacturing:</strong> Precision-machined the nozzle on a CNC lathe. Empirical testing revealed flow limitations within commercial regulators, defining future specifications for custom high-flow pneumatic valves.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 6: LANDING GEAR -->
+  <div id="modal-gear" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-gear')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-gear')">&times;</button>
+      <div class="modal-header">
+        <span class="badge aero">Aerospace Engineering</span>
+        <h2>Variable Damping Nose Landing Gear</h2>
+        <p class="modal-lead">BS Capstone: Non-Linear Hydraulic Damping for Unmanned Aerial Vehicles</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Problem Statement</h3>
+          <p>
+            Standard fixed-orifice oleo-pneumatic dampers in UAV nose landing gear exhibit sluggish settling times, high peak rebound forces, and non-critical damping ratios across fluctuating touchdown velocities.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>Tapered Metering Pin Mechanism</h3>
+          <ul>
+            <li><strong>Tapered Variable Orifice:</strong> Engineered a variable-damping oleo-pneumatic strut featuring a tapered metering pin that continuously modifies the fluid orifice area as a function of piston stroke.</li>
+            <li><strong>Nonlinear MATLAB Simulation:</strong> Modeled the dynamic fluid equations, pressure differentials, and discharge coefficients in MATLAB to tune the pin taper geometry for near-critical damping.</li>
+            <li><strong>Abaqus 1D Dynamic Shock Modeling:</strong> Validated the mathematical model through Abaqus impact simulations, demonstrating faster settling times and reduced peak forces compared to conventional constant dampers.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 7: DUAL STATOR MOTOR -->
+  <div id="modal-motor" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-motor')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-motor')">&times;</button>
+      <div class="modal-header">
+        <span class="badge motor">Electromechanical Actuation</span>
+        <h2>Dual Stator Dual Rotor (DSDR) Electric Motor</h2>
+        <p class="modal-lead">Quasi-Direct Drive (QDD) High-Torque-Density Actuator Architecture</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Motivation</h3>
+          <p>
+            High-ratio gearboxes add excessive reflected inertia, mechanical backlash, and friction, severely degrading open-loop torque control and backdrivability in legged robots. Direct-drive and QDD motors solve this but typically suffer from low torque output per unit mass.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>Topology &amp; Prototyping</h3>
+          <ul>
+            <li>Investigated concentric dual-stator dual-rotor configurations (combining internal and external air gaps) to double effective electromagnetic shear area.</li>
+            <li>Evaluated both inrunner and outrunner topologies for thermal conduction paths and torque output.</li>
+            <li>Built experimental prototypes to benchmark open-loop torque control bandwidth and thermal saturation thresholds for robot joints.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 8: VOICE COIL -->
+  <div id="modal-vca" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-vca')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-vca')">&times;</button>
+      <div class="modal-header">
+        <span class="badge actuator">Novel Actuators</span>
+        <h2>Dual-Pole Solenoid &amp; Voice Coil Actuator</h2>
+        <p class="modal-lead">Direct Linear Drive with Controlled Electromagnetic Compliance</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Design &amp; Investigation</h3>
+          <p>
+            Rotary-to-linear linkages add unwanted mechanical mass and complexity to robotic joints. This project investigated whether a customized dual-pole solenoid configuration could achieve controllable dynamic response with reduced thermal penalties.
+          </p>
+          <ul>
+            <li><strong>L298N Drive Setup:</strong> Designed an experimental testbed driven by an L298N H-bridge controller running dual-speed and bidirectional current pulses.</li>
+            <li><strong>Thermal Dissipation:</strong> Demonstrated that split dual-pole winding geometries drastically reduced steady-state heat generation compared to standard single-coil solenoids.</li>
+            <li><strong>Virtual Spring Dynamics:</strong> Programmed closed-loop position states that exhibited tunable spring-like elastic compliance for robotic foot impact absorption.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 9: EXOSUIT -->
+  <div id="modal-exosuit" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-exosuit')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-exosuit')">&times;</button>
+      <div class="modal-header">
+        <span class="badge soft">Wearable Systems</span>
+        <h2>Ankle &amp; Hip Compliant Assistive Exosuit</h2>
+        <p class="modal-lead">Low-Cost, Non-AI Gait-Synchronized Assistive Exoskeleton</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Hardware &amp; Control Strategy</h3>
+          <p>
+            Most modern exoskeletons rely on complex, computationally heavy AI frameworks and expensive multi-sensor arrays. This prototype proved that effective biological gait assistance can be achieved with lightweight, cost-effective hardware:
+          </p>
+          <ul>
+            <li><strong>MJBots Brushless Drive:</strong> Integrated an ultra-compact MJBots brushless motor and high-resolution driver coupled to an ankle pulley via high-tensile Bowden cable transmission.</li>
+            <li><strong>Heel Contact Timing:</strong> Deployed two robust pressure switches across the heel strike zone to detect midstance transition mechanically, eliminating algorithmic latency.</li>
+            <li><strong>Variable Stiffness Emulation:</strong> The motor acts as a high-stiffness virtual spring delivering up to <strong>70 N</strong> of assistive plantarflexion torque during terminal stance, maintaining minimal background cable tension during swing.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 10: GAIT TRIALS -->
+  <div id="modal-gait" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-gait')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-gait')">&times;</button>
+      <div class="modal-header">
+        <span class="badge biomech">Dynamic Simulation</span>
+        <h2>Human Gait Kinematics &amp; Dynamic Simulation</h2>
+        <p class="modal-lead">Vicon Motion Tracking, Multi-Segment IMUs, and Python Biomechanical Models</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Project Objective</h3>
+          <p>
+            Developed a high-fidelity dynamic simulation of human walking by capturing, filtering, and modeling experimental biomechanical data across human subjects.
+          </p>
+        </div>
+        <div class="detail-section">
+          <h3>Experimental Methodology</h3>
+          <ul>
+            <li><strong>Contoured IMU Mounting Brackets:</strong> Designed and 3D-printed custom, anatomically contoured limb brackets that conform securely to various thigh and shank profiles via slotted Velcro straps, eliminating sensor slippage artifacts.</li>
+            <li><strong>Sensor Fusion:</strong> Recorded gait cycles using 20 Vicon optical markers tracked by high-speed infrared cameras synchronized with 7 body-mounted IMUs.</li>
+            <li><strong>Dynamic Modeling:</strong> Post-processed kinematic trajectory and ground reaction data in Python and Vicon Nexus to drive dynamic multi-link walking simulations.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 11: BALANCE ROBOT -->
+  <div id="modal-balance" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-balance')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-balance')">&times;</button>
+      <div class="modal-header">
+        <span class="badge control">Control Systems</span>
+        <h2>Two-Wheeled Self-Balancing Inverted Pendulum</h2>
+        <p class="modal-lead">State Estimation, IMU Filtering, and Disturbance Rejection</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>System Overview</h3>
+          <p>
+            Engineered a standalone two-wheeled inverted pendulum testbed from the ground up to validate real-time state estimation algorithms and closed-loop balance stabilization.
+          </p>
+          <ul>
+            <li><strong>IMU Sensor Fusion:</strong> Combined accelerometer and gyroscopic rate signals through complementary filtering to obtain zero-drift tilt angle calculations under dynamic platform accelerations.</li>
+            <li><strong>PID Parameter Tuning:</strong> Tuned proportional, integral, and derivative gain matrices to balance rapid impulse disturbance rejection with minimum actuator saturation and chattering.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 12: PID VELOCITY -->
+  <div id="modal-pid" class="modal-overlay" onclick="closeModalOnBackdrop(event, 'modal-pid')">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModal('modal-pid')">&times;</button>
+      <div class="modal-header">
+        <span class="badge control">Control Systems</span>
+        <h2>PID Closed-Loop Velocity &amp; Dynamic Wheelie Control</h2>
+        <p class="modal-lead">Precision Encoder Feedback, Transient Response Tuning, and Equilibrium Inversion</p>
+      </div>
+      <div class="modal-body">
+        <div class="detail-section">
+          <h3>Objective &amp; Control Strategy</h3>
+          <p>
+            Designed a custom dual-motor robotic platform to analyze non-linear transient dynamics under closed-loop velocity and torque feedback:
+          </p>
+          <ul>
+            <li><strong>Encoder Feedback Loop:</strong> Implemented real-time quadrature encoder tracking to govern closed-loop velocity control across varied rolling friction surfaces.</li>
+            <li><strong>Dynamic Wheelie Mode:</strong> Tuned torque command injection at the drive wheels to intentionally pop up into a balanced wheelie state, evaluating equilibrium recovery under aggressive step inputs.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive JavaScript for Seamless Modals -->
+  <script>
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    }
+
+    function closeModalOnBackdrop(event, id) {
+      if (event.target === document.getElementById(id)) {
+        closeModal(id);
+      }
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        const activeModals = document.querySelectorAll('.modal-overlay.active');
+        activeModals.forEach(m => {
+          m.classList.remove('active');
+        });
+        document.body.style.overflow = 'auto';
+      }
+    });
+  </script>
 
 </body>
 </html>
